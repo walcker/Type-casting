@@ -49,8 +49,8 @@ int main(void)
 
     }
 
-   y = static_cast<float>(a/(a+b+c+d+e)*100);
-    A = (y);
+   //y = static_cast<float>(a/(a+b+c+d+e)*100);
+    A = (float) a/(a+b+c+d+e)*100;
     cout << A << endl;
 
     //return 0;
