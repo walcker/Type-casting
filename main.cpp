@@ -28,7 +28,7 @@ int main(void)
     float A, B, C, D, E,y;
 
     cout << "Digite os números de dois dígitos e aperte enter depois de cada um deles." << endl;
-    cout << "Digite 'e' para sair do programa." << endl;
+    cout << "Digite um número negativo para sair do programa." << endl;
 
 
         while(x >= 0){
@@ -43,8 +43,10 @@ int main(void)
             c++;
         }else if(x >=75 && x<100){
             d++;
+        }else if(x < 0){
+            
         }else{
-            e++;
+          e++;
         }
 
     }
